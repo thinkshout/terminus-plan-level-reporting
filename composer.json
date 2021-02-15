@@ -1,0 +1,13 @@
+{
+  "name": "thinkshout/terminus-plan-level-reporting",
+  "description": "Tool to report on the plan level for sites and pages served/site visits",
+  "type": "terminus-plugin",
+  "autoload": {
+    "psr-4": { "ThinkShout\\TerminusPlanLevelReporting\\": "src" }
+  },
+  "extra": {
+    "terminus": {
+      "compatible-version": "^2"
+    }
+  }
+}
